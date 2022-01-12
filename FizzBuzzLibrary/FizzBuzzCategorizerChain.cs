@@ -5,6 +5,9 @@ using System.Text;
 namespace FizzBuzzLibrary
 {
 
+    /// <summary>
+    /// Chain class that sets the resolvers one after the other
+    /// </summary>
     public class FizzBuzzCategorizerChain
     {
         private FizzBuzzCategorizerChain()

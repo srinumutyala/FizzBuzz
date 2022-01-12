@@ -4,6 +4,9 @@ using System.Text;
 
 namespace FizzBuzzLibrary
 {
+    /// <summary>
+    /// Abstract calss for defines the Resolve method
+    /// </summary>
 	public abstract class CategoryResolver
     {
         public CategoryResolver RegisterNext(CategoryResolver next)
