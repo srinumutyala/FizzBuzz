@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLibrary", "FizzBuzzLibrary\FizzBuzzLibrary.csproj", "{5F5059EF-CECF-4DFC-A7CF-810997979730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzLibrary", "FizzBuzzLibrary\FizzBuzzLibrary.csproj", "{5F5059EF-CECF-4DFC-A7CF-810997979730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzConsole", "FizzBuzzConsole\FizzBuzzConsole.csproj", "{BED5D2CA-612C-460F-9684-2F429E451A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzConsole", "FizzBuzzConsole\FizzBuzzConsole.csproj", "{BED5D2CA-612C-460F-9684-2F429E451A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzUnitTests", "FizzBuzzUnitTests\FizzBuzzUnitTests.csproj", "{4DECED1E-0367-467D-A84A-E73900BC46B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzUnitTests", "FizzBuzzUnitTests\FizzBuzzUnitTests.csproj", "{4DECED1E-0367-467D-A84A-E73900BC46B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialConsole", "FactorialConsole\FactorialConsole.csproj", "{6033084B-8786-4116-91E9-C9D464C6D175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialConsole", "FactorialConsole\FactorialConsole.csproj", "{6033084B-8786-4116-91E9-C9D464C6D175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialLibrary", "FactorialLibrary\FactorialLibrary.csproj", "{979B133D-6084-492E-8FDF-CF8A8AB8883C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialLibrary", "FactorialLibrary\FactorialLibrary.csproj", "{979B133D-6084-492E-8FDF-CF8A8AB8883C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzz", "FizzBuzz", "{23E5A036-59F8-4BDF-B908-1CB911EA4F61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{BF5BF6BF-40C2-43EA-84DB-0E48ED26DC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialTests", "FactorialTests\FactorialTests.csproj", "{B1BFBCD1-AE96-41FC-BAE1-2EEE8FE78BB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{979B133D-6084-492E-8FDF-CF8A8AB8883C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{979B133D-6084-492E-8FDF-CF8A8AB8883C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{979B133D-6084-492E-8FDF-CF8A8AB8883C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BFBCD1-AE96-41FC-BAE1-2EEE8FE78BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BFBCD1-AE96-41FC-BAE1-2EEE8FE78BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BFBCD1-AE96-41FC-BAE1-2EEE8FE78BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BFBCD1-AE96-41FC-BAE1-2EEE8FE78BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{4DECED1E-0367-467D-A84A-E73900BC46B0} = {23E5A036-59F8-4BDF-B908-1CB911EA4F61}
 		{6033084B-8786-4116-91E9-C9D464C6D175} = {BF5BF6BF-40C2-43EA-84DB-0E48ED26DC0C}
 		{979B133D-6084-492E-8FDF-CF8A8AB8883C} = {BF5BF6BF-40C2-43EA-84DB-0E48ED26DC0C}
+		{B1BFBCD1-AE96-41FC-BAE1-2EEE8FE78BB9} = {BF5BF6BF-40C2-43EA-84DB-0E48ED26DC0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10B00025-2695-4294-9079-F925D36A6D03}

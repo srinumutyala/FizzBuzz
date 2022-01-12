@@ -26,7 +26,7 @@ namespace FactorialConsole
 					Console.WriteLine("Please enter a valid number");
 
 				var factorialService = serviceProvider.GetService<IFactorialService>();
-				var factorial = factorialService.FindFactorial(resultNumber);
+				var factorial = factorialService.FindFactorial(resultNumber).Result;
 				Console.WriteLine($"Factorial for the {resultNumber} is :{factorial}");
 			}
 			catch(Exception ex)

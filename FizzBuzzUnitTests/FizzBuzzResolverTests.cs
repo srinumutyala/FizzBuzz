@@ -10,7 +10,7 @@ namespace FizzBuzzUnitTests
 		[Theory]
 		[InlineData(5, Constants.BUZZ)]
 		[InlineData(3, Constants.FIZZ)]
-		[InlineData(15, Constants.FIZZ)]
+		[InlineData(15, Constants.FIZZBUZZ)]
 		[InlineData(7, "7")]
 		public void TestFizzBuzzResolver_with_multiple_inputs(int actual, string expected)
 		{
